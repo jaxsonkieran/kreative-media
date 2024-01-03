@@ -1,6 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;700&display=swap');
 
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
+/* style header and fix position */
+header {
+    background: rgb(20, 33, 61, 0.9);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+/* remove box from view */
+.nav-toggle {
+    display: none;
+  }
+
+  .nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+  }
+  
+  .nav-toggle-label span::after {
+    top: 7px;
+  }
+
+
+
+.logo {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* add styling to logo text */
+.highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FCA311 50%);
+}
+
+nav {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: rgba(20, 33, 61, 0.9);
+    width: 100%;
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+
+  nav a {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+  nav a:hover {
+    color: #FCA311;
+  }
+/* create nav toggle to open nav when clicked*/
+  .nav-toggle:checked ~ nav {
+    display: block;
+  }
