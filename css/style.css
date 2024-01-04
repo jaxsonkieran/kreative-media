@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;700&display=swap');
 
-
 *,
 *::before,
 *::after {
@@ -11,6 +10,20 @@ body {
   margin: 0;
   font-family: 'Mulish', sans-serif;
   font-weight: 300;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .content {
@@ -27,9 +40,7 @@ body {
 }
 
 .content h2 {
-  font-family: 'Mulish', sans-serif;
   color: white;
-  font-weight: 700;
   font-size: 2em;
 }
 
@@ -112,18 +123,17 @@ nav li {
   margin-left: 1em;
 }
 
-.logo {
-  font-family: 'Mulish', sans-serif;
+.logo a {
   color: white;
-  font-weight: 700;
+  text-decoration: none;
 }
 
 nav a {
   font-family: 'Mulish', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
@@ -148,7 +158,57 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+.info {
+  background-color: #14213d;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info .img {
+  flex-grow: 1;
+  flex-basis: calc(50% - 20px);
+  /* margin: 10px; */
+  min-width: 300px;
+}
+/* .img img {
+  display: block;
+  max-width: 100%;
+} */
+.txt {
+  flex-grow: 1;
+  flex-basis: calc(50% - 22px);
+  margin: 10px;
+  min-width: 300px;
+}
 
+.txt h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #FCA311;
+}
+
+.txt p {
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.button-more {
+  background: none;
+  color: #FCA311;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: ease-in-out 250ms;
+}
+
+.button-more:hover {
+  border-color: #ffffff;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+  transform: translateY(-0.25em);
+}
 /* Create the navbar for wider screens */
 
 @media screen and (min-width: 768px) {
