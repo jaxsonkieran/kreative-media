@@ -28,7 +28,7 @@ img {
 
 .content {
   height: 200vh;
-  background-image: url('../assets/images/gallery-images/_DSF1001-min.jpg');
+  background-image: url('../images/gallery-images/_DSF1001-min.jpg');
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
