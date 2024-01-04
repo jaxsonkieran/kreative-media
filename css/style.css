@@ -21,10 +21,10 @@ h3 {
   line-height: 1;
 }
 
-img {
+/* img {
   display: block;
   max-width: 100%;
-}
+} */
 
 .content {
   /* height: 200vh; */
@@ -169,10 +169,10 @@ nav a:hover {
   /* margin: 10px; */
   min-width: 300px;
 }
-/* .img img {
+.img img {
   display: block;
   max-width: 100%;
-} */
+}
 .info-txt {
   flex-grow: 1;
   flex-basis: calc(50% - 22px);
