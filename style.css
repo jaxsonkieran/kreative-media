@@ -1,45 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;700&display=swap');
 
 
-*, *::before, *::after {
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* style header and fix position */
 header {
-    background: rgb(20, 33, 61, 0.9);
-    text-align: center;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
+  background: rgb(20, 33, 61, 0.9);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 /* remove box from view */
 .nav-toggle {
-    display: none;
-  }
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+}
 
-  .nav-toggle-label {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 1em;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
+.nav-toggle:focus ~ .nav-toggle-label {
+  outline: 3px solid rgba(173, 216, 230, .75);
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
 
 
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
-    display: block;
-    background: white;
-    height: 2px;
-    width: 2em;
-    border-radius: 2px;
-    position: relative;
-  }
+  display: block;
+  background: white;
+  height: 2px;
+  width: 2em;
+  border-radius: 2px;
+  position: relative;
+}
 
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -48,61 +56,128 @@ header {
 }
 
 .nav-toggle-label span::before {
-    bottom: 7px;
-  }
-  
-  .nav-toggle-label span::after {
-    top: 7px;
-  }
+  bottom: 7px;
+}
 
+.nav-toggle-label span::after {
+  top: 7px;
+}
 
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: rgba(20, 33, 61, 0.9);
+  width: 100%;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
 
 .logo {
-    font-family: 'Mulish', sans-serif;
-    color: white;
-    font-weight: 700;
-    margin: 0;
+  font-family: 'Mulish', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+nav a {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+  color: #FCA311;
 }
 
 /* add styling to logo text */
 .highlight {
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #FCA311 50%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #FCA311 50%);
 }
 
-nav {
-    position: absolute;
-    text-align: left;
-    top: 100%;
-    left: 0;
-    background: rgba(20, 33, 61, 0.9);
-    width: 100%;
-    display: none;
-}
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav li {
-    margin-bottom: 1em;
-    margin-left: 1em;
-  }
-
-  nav a {
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-  }
-
-  nav a:hover {
-    color: #FCA311;
-  }
 /* create nav toggle to open nav when clicked*/
-  .nav-toggle:checked ~ nav {
-    display: block;
+.nav-toggle:checked ~ nav {
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+/* Create the navbar for wider screens */
+
+@media screen and (min-width: 768px) {
+  .nav-toggle-label {
+    display: none;
   }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+
+  .logo {
+    grid-column: 2 / 3;
+  }
+
+  nav {
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: #FCA311;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0,1);
+    transition: transform ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}
