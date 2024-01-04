@@ -28,7 +28,7 @@ img {
 
 .content {
   height: 200vh;
-  background-image: url('/../images/_DSF1001-min.jpg');
+  background-image: url('/../images/gallery-images/_DSF1001-min.jpg');
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -173,21 +173,21 @@ nav a:hover {
   display: block;
   max-width: 100%;
 } */
-.txt {
+.info-txt {
   flex-grow: 1;
   flex-basis: calc(50% - 22px);
   margin: 10px;
   min-width: 300px;
 }
 
-.txt h2 {
+.info-txt h2 {
   font-family: 'Mulish', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
   color: #FCA311;
 }
 
-.txt p {
+.info-txt p {
   color: white;
   font-family: 'Mulish', sans-serif;
   font-weight: 300;
@@ -208,6 +208,13 @@ nav a:hover {
   color: white;
   box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
   transform: translateY(-0.25em);
+}
+
+.brands h2 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  color: #FCA311;
+  text-align: center;
 }
 /* Create the navbar for wider screens */
 
