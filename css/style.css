@@ -181,7 +181,8 @@ nav a:hover {
 .info-txt {
   flex-grow: 1;
   flex-basis: calc(50% - 22px);
-  margin: 20px;
+  margin-inline: 50px;
+  margin-block: 30px;
   min-width: 300px;
 }
 
@@ -197,6 +198,7 @@ nav a:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
+  /* margin-inline: 50px; */
 }
 
 .button-more {
@@ -220,7 +222,8 @@ nav a:hover {
 .video-content h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  margin: 20px;
+  margin-inline: 50px;
+  margin-block: 30px;
 }
 
 .highlight-story {
@@ -241,6 +244,20 @@ nav a:hover {
   height: 100%;
 }
 
+/* Partners Section */
+
+.partners-section {
+  background-color: #14213d;
+  padding-top: 50px;
+}
+
+.partners-section h2 {
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-inline: 50px;
+  font-size: 2em;
+}
 
 
 /* Create the navbar for wider screens */
@@ -324,7 +341,8 @@ nav a:hover {
   .info-txt {
     flex-grow: 1;
     flex-basis: calc(50% - 22px);
-    margin: 20px;
+    margin-inline: 20px;
+    margin-block: 50px;
     min-width: 300px;
   }
 }
