@@ -178,6 +178,7 @@ nav a:hover {
   display: block;
   max-width: 100%;
 }
+
 .info-txt {
   flex-grow: 1;
   flex-basis: calc(50% - 22px);
@@ -191,6 +192,7 @@ nav a:hover {
   font-weight: 900;
   font-size: 2em;
   color: #FCA311;
+  padding-top: 30px;
 }
 
 .info-txt p {
@@ -198,6 +200,7 @@ nav a:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
+  padding-top: 10px;
   /* margin-inline: 50px; */
 }
 
