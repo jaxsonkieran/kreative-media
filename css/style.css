@@ -44,6 +44,11 @@ h3 {
   margin: 20px;
 }
 
+.content h2:hover {
+  text-shadow: 0.5px 0.5px 10px #FCA311, 0 0 1em #14213d, 0 0 0.2em #14213d;
+  transform: translateY(-0.25em);
+}
+
 /* style header and fix position */
 header {
   background: rgb(20, 33, 61, 0.9);
@@ -247,19 +252,47 @@ nav a:hover {
   height: 100%;
 }
 
-/* Partners Section */
 
-.partners-section {
+/* Partners Section */
+.clients {
   background-color: #14213d;
-  padding-top: 50px;
 }
 
-.partners-section h2 {
-  color: #ffffff;
+.clients h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  color: white;
   margin-inline: 50px;
-  font-size: 2em;
+  padding-top: 30px;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.flex-item:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em #FCA311;
+  transform: translateY(-0.25em);
+  
+}
+
+/*  Have the partners section show in a row on larger screens*/
+@media  screen and (min-width: 768px) {
+  .flex-item {
+    width: 200px;
+    flex-direction: row;
+  }
+}
+  
 }
 
 
@@ -345,7 +378,7 @@ nav a:hover {
     flex-grow: 1;
     flex-basis: calc(50% - 22px);
     margin-inline: 20px;
-    margin-block: 50px;
+    margin-block: 20px;
     min-width: 300px;
   }
 }
