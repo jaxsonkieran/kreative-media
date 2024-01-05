@@ -197,7 +197,7 @@ nav a:hover {
   font-weight: 900;
   font-size: 2em;
   color: #FCA311;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .info-txt p {
@@ -265,6 +265,21 @@ nav a:hover {
   margin-inline: 50px;
   padding-top: 30px;
 }
+
+.clients p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-inline: 50px;
+}
+
+.clients hr {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  }
+
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -292,9 +307,6 @@ nav a:hover {
     flex-direction: row;
   }
 }
-  
-}
-
 
 /* Create the navbar for wider screens */
 
