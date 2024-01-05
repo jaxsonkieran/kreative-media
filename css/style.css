@@ -271,10 +271,11 @@ nav a:hover {
   font-weight: 300;
   color: white;
   margin-inline: 50px;
+  padding: 30px 0;
 }
 
 .clients hr {
-  width: 50%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
