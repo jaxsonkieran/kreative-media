@@ -7,13 +7,14 @@
   box-sizing: border-box;
 }
 
+/* standardise the body */
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 1.5;
 }
-
+/* style all headers */
 h1,
 h2,
 h3 {
@@ -22,13 +23,8 @@ h3 {
   line-height: 1;
 }
 
-/* img {
-  display: block;
-  max-width: 100%;
-} */
-
+/* Main hero image */
 .content {
-  /* height: 200vh; */
   background-image: url("../images/gallery-images/hero-image.jpg");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
@@ -40,10 +36,12 @@ h3 {
   place-items: center;
 }
 
+/* style header and give margin on mobile */
 .content h2 {
   font-weight: 900;
   color: white;
   font-size: 2em;
+  margin: 20px;
 }
 
 /* style header and fix position */
@@ -113,7 +111,7 @@ nav {
   transform-origin: top;
   transition: transform 400ms ease-in-out;
 }
-
+/* remove styles from list */
 nav ul {
   margin: 0;
   padding: 0;
@@ -125,13 +123,19 @@ nav li {
   margin-left: 1em;
 }
 
+/* logo */
 .logo a {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
   color: white;
   text-decoration: none;
 }
+/* add styling to logo text */
+.highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #FCA311 50%);
+}
 
+/* navbar links */
 nav a {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -147,10 +151,7 @@ nav a:hover {
   color: #FCA311;
 }
 
-/* add styling to logo text */
-.highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #FCA311 50%);
-}
+
 
 
 /* create nav toggle to open nav when clicked*/
@@ -171,7 +172,6 @@ nav a:hover {
 .info .img {
   flex-grow: 1;
   flex-basis: calc(55% - 20px);
-  /* margin: 10px; */
   min-width: 300px;
 }
 .img img {
@@ -190,7 +190,6 @@ nav a:hover {
   font-weight: 900;
   font-size: 2em;
   color: #FCA311;
-  /* padding-inline: 1rem; */
 }
 
 .info-txt p {
@@ -198,7 +197,6 @@ nav a:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  /* padding-inline: 1rem; */
 }
 
 .button-more {
