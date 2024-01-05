@@ -301,7 +301,7 @@ nav a:hover {
   transform: translateY(-0.25em);
   
 }
-
+/* center text in video section on wider screens */
 @media  screen and (min-width: 768px) {
   .video-content h2 {
     text-align: center;
