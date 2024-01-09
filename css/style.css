@@ -358,6 +358,17 @@ nav a:hover {
 }
 
 /* footer */
+.container-fluid {
+  background-color: #14213d;
+}
+
+.footer-head {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: white;
+  border-bottom: 1px solid #FCA311;
+}
 
 
 /* center text in video section on wider screens */
