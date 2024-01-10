@@ -360,11 +360,24 @@ footer {
   color: white;
   padding: 4rem 1rem;
 }
+footer hr {
+  width: 25%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #FCA311;
+}
 
 footer a {
   color: white;
   text-decoration: none;
   transition: 300ms;
+}
+
+footer p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding: 5px 10px;
+  margin: 0 auto;
 }
 
 footer a:hover {
@@ -388,29 +401,40 @@ footer a:hover {
 }
 
 .footer-heading {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   margin-bottom: 1rem;
+  border-bottom: #FCA311;
 }
 
 .footer-link {
+  text-decoration: none;
   display: block;
   width: max-content;
   padding: 5px 10px;
   margin: 0 auto;
 }
 
+
 .footer-bottom {
+  text-align: center;
+  }
+
+.highlight-footer {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 80%, #FCA311 50%);
+  
+  }
+/* .footer-bottom {
   display: flex;
 }
 
 .copyright {
   margin-right: auto;
-}
+} */
 
 .footer-social {
-  font-size: 20px;
-  margin-left: 2rem;
+  font-size: 1.5em;
 }
-
 /*  footer design for mobile */
 @media screen and (max-width: 768px) {
   .footer-main {
