@@ -30,7 +30,8 @@ h3 {
   background-blend-mode: multiply;
   background-size: cover;
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
+  height: 100vh;
   border: 2px solid;
   display: grid;
   place-items: center;
@@ -560,5 +561,73 @@ footer a:hover {
     margin-inline: 20px;
     margin-block: 20px;
     min-width: 300px;
+  }
+}
+
+/* Work Page Gallery */
+.work-gallery h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  margin-inline: 20px;
+  margin-block: 30px;
+  padding: 30px 0;
+}
+
+.work-gallery {
+  background-image: url(../images/gallery-images/hero-image.jpg);
+  background-color: #14213d;
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  &:after {
+    content:'';
+    display:block;
+    flex-grow: 10;
+  }
+}
+
+.work-gallery li {
+  height: 40vh;
+  flex-grow: 1;
+  list-style-type: none;
+}
+
+.img-wrk {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .work-gallery li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) {
+  .work-gallery li {
+    height: 80vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .work-gallery {
+    flex-direction: row;
+  }
+
+  .work-gallery li {
+    height: auto;
+    width: 100%;
+  }
+  .img-wrk {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
   }
 }
