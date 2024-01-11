@@ -83,74 +83,74 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 ### Navigation Menu
 #### Desktop 
 <br>
-<img src="../kreative-media/images/readme images/desktop-nav.PNG">
+<img src="images/readme images/desktop-nav.PNG">
 
 #### Mobile Menu Closed
 <br>
-<img src="../kreative-media/images/readme images/mobile-nav-closed.png">
+<img src="images/readme images/mobile-nav-closed.png">
 
 
 #### Mobile Menu Open
-<img src="../kreative-media/images/readme images/mobile-nav-open.png">
+<img src="images/readme images/mobile-nav-open.png">
 
 #### Mobile Menu 
 <br>
-<img src="../kreative-media/images/readme images/mobile-nav.PNG">
+<img src="images/readme images/mobile-nav.PNG">
 
 * At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website. The KreativeMedia logo is also visible on all devices.
 
 ## Home Page Header
 * This section of the website users can see a sporting photography image as a background followed by a short bio about the photographer. This is giving the users some info on the photogreapher while also sharing some work.
 <br>
-<img src="../kreative-media/images/readme images/home-page.PNG">
+<img src="images/readme images/home-page.PNG">
 
 ## About Section
 This section is small, it is about the photographer and a button links to view more about his work experience. 
 
 * Mobile view
 <br>
-<img src="../kreative-media/images/readme images/about-mobile.PNG">
+<img src="images/readme images/about-mobile.PNG">
 
 * Desktop view
 <br>
-<img src="../kreative-media/images/readme images/about-desktop.PNG">
+<img src="images/readme images/about-desktop.PNG">
 <br>
 
 ## Video Section
 This section showcases another strand of the companies work. Allowing the user to see that the company does more than just imagery. A video that is embedded via YouTube, again focusing on keeping space on the website and ensuring speed is top priority. 
 <br>
-<img src="../kreative-media/images/readme images/video-section.PNG">
+<img src="images/readme images/video-section.PNG">
 <br>
 
 ## Client Section
 * This is something that is scalable, built on flexbox it allows for more clients to be added as time goes on. This showcases the clients the company has worked with so the users can start to build a certain level of trust with the photographer. 
 * Desktop View
 <br>
-<img src="../kreative-media/images/readme images/clients-desktop.PNG">
+<img src="images/readme images/clients-desktop.PNG">
 <br>
 * Mobile View
 <br>
-<img src="../kreative-media/images/readme images/clients-mobile.PNG">
+<img src="images/readme images/clients-mobile.PNG">
 
 
 ## Home page Gallery
 * This is a small gallery showcasing the company/photographer's work. It is there to provide a taste of what can be done at a sporting event, or other. The images are housed on Cloudinary, freeing up some space on the website. Lazy loading is applied to ensure speed is priority. The images are also resized down from their original. The gallery is build on flexbox and is fully responsive. 
 * Desktop View
 <br>
-<img src="../kreative-media/images/readme images/gallery-desktop.PNG">
+<img src="images/readme images/gallery-desktop.PNG">
 
 * Mobile View 
 <br>
-<img src="../kreative-media/images/readme images/gallery-mobile.PNG">
+<img src="images/readme images/gallery-mobile.PNG">
 
 ## Footer Section
 * Users can see information about the company's address, a small motto/vision, how to contact the company and links to social media profiles. This is responsive on all devices.
 *Desktop View
 <br>
-<img src="../kreative-media/images/readme images/footer-desktop.PNG">
+<img src="images/readme images/footer-desktop.PNG">
 * Mobile View
 <br>
-<img src="../kreative-media/images/readme images/footer-mobile.PNG">
+<img src="images/readme images/footer-mobile.PNG">
 
 
 
