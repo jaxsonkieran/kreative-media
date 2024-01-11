@@ -117,6 +117,7 @@ nav {
   transform-origin: top;
   transition: transform 400ms ease-in-out;
 }
+
 /* remove styles from list */
 nav ul {
   margin: 0;
@@ -252,7 +253,7 @@ nav a:hover {
 }
 
 
-/* Partners Section */
+/* ----------------- Partners Section --------------- */
 .clients {
   background-color: #14213d;
 }
@@ -301,7 +302,7 @@ nav a:hover {
   
 }
 
-/* gallery home page */
+/* ---------------- gallery home page ------------- */
 
 .main-gallery h2 {
   font-family: 'Lato', sans-serif;
@@ -376,7 +377,7 @@ nav a:hover {
   }
 }
 
-/* footer */
+/* --------------------- footer section ------------------- */
 footer {
   background-color: #14213d;
   color: white;
@@ -474,9 +475,6 @@ footer a:hover {
   }
 }
 
-
-
-
 /* Create the navbar for wider screens */
 
 @media screen and (min-width: 768px) {
@@ -564,6 +562,8 @@ footer a:hover {
   }
 }
 
+/* ------------------ WORK PAGE------------ */
+
 /* Work Page Gallery */
 .work-gallery h2 {
   font-family: 'Lato', sans-serif;
@@ -630,4 +630,26 @@ footer a:hover {
     max-height: 75vh;
     min-width: 0;
   }
+}
+
+/* ----------- banner section ---------- */
+
+.work-banner {
+  width: 100%;
+  height: 80vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(20, 33, 61, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704989153/mtb-01_rmic8d.jpg);
+}
+
+.work-banner h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 20px;
 }
