@@ -739,7 +739,7 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: column wrap;
+  flex-flow: column;
   height: 300px;
   padding-top: 60px;
   }
@@ -752,7 +752,12 @@ footer a:hover {
     margin: 20px;
   }
   .about-intro p {
-    text-align: center;
+    /* text-align: center; */
+    text-align: justify;
+    margin-inline: 65px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .about-me-portrait {
@@ -762,12 +767,32 @@ footer a:hover {
 }
 
 .about-me-portrait img {
-  width: 70%;
+  width: 90%;
 }
 
 /* make image repsonsive on mobile */
 @media (max-width: 768px) {
   .about-me-portrait img {
-width: 100%;
+width: 90%;
+  }
+  
+}
+
+.about-me-txt p {
+  text-align: justify;
+  margin-inline: 65px;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+/* control margin on mobile screens */
+@media (max-width: 768px) {
+  .about-me-txt p {
+margin-inline: 30px;
+  }
+  .about-intro p {
+    margin-inline: 30px;
+    text-align: justify;
   }
 }
