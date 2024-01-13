@@ -68,6 +68,7 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 
 ### Videos
 * I wanted to include videos on my website but found it very difficult to ensure they were responsive on all devices without uploading the video into the website itself. I know it's better hosted online somewhere as it reduces the memory and will also help with speed. This led me to do a lot of research on [StackOverflow](https://stackoverflow.com/) which then led me to this responsive iframes article build through CSS which guided me through the process of making my videos responsive on all devices, credit Ben Marshall [Ben Marshall Responsive iframes](https://benmarshall.me/responsive-iframes/).
+* I also created a flexbox responsive video gallery on the work page that shows my social media/IG reels that have been created for certain brands. You can see the codepen here [Kieran Jackson Codepen](https://codepen.io/Kieran-Jackson/pen/eYXBVqa)
 
 ### Google Maps
 *This website has a Google Maps location so users can locate my office/studio if needed. 
