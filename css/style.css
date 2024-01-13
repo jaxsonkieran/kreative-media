@@ -689,7 +689,6 @@ footer a:hover {
 /* -------------------------------- */
 
 .video-container {
-  background-color: #14213d;
   display: flex;
   height: 350px;
   flex-flow: row wrap;
@@ -713,9 +712,8 @@ footer a:hover {
 }
 
 .video video:hover {
-  border-color: #ffffff;
-  color: white;
-  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+  border-color: #14213d;
+  box-shadow: 0 0.5em 0.5em -0.4em #FCA311;
   transform: translateY(-0.25em);
 }
 
