@@ -518,36 +518,6 @@ footer a:hover {
   vertical-align: bottom;
 }
 
-@media (max-aspect-ratio: 1/1) {
-  .work-gallery li {
-    height: 30vh;
-  }
-}
-
-@media (max-height: 480px) {
-  .work-gallery li {
-    height: 80vh;
-  }
-}
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-  .work-gallery {
-    flex-direction: row;
-  }
-
-  .work-gallery li {
-    height: auto;
-    width: 100%;
-  }
-  .img-wrk {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}
-
-
-
 /* -------------------------------- */
 /* ----- work video section------- */
 /* -------------------------------- */
@@ -581,21 +551,6 @@ footer a:hover {
   transform: translateY(-0.25em);
 }
 
-@media (max-width: 800px) {
-  .video-container {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    width: auto;
-    column-gap: 50px;
-    
-  }
-  .video video {
-    height: 100vh;
-    width: 100vh;
-  }
-  
-}
 
 /* --------------------------------------------------------------ABOUT PAGE------------------------------------------------------- */
 /* -------------------------------- */
@@ -646,14 +601,6 @@ footer a:hover {
   width: 90%;
 }
 
-/* make image repsonsive on mobile */
-@media (max-width: 768px) {
-  .about-me-portrait img {
-width: 90%;
-  }
-  
-}
-
 .about-me-txt p {
   text-align: justify;
   margin-inline: 65px;
@@ -664,16 +611,6 @@ width: 90%;
   color: #14213d;
 }
 
-/* control margin on mobile screens */
-@media (max-width: 768px) {
-  .about-me-txt p {
-margin-inline: 30px;
-  }
-  .about-intro p {
-    margin-inline: 30px;
-    text-align: justify;
-  }
-}
 
 /* -------------------------------- */
 /* ----- ABOUT THE IMAGES SECTION------- */
@@ -709,24 +646,6 @@ margin-inline: 30px;
 
 .about-img-wrapper img {
   max-width: 500px;
-}
-
-/* style aoout image wrapper for mobile */
-@media (max-width: 768px) {
-  .about-img-wrapper {
-    flex-direction: column;
-  }
-
-  .about-img-wrapper img {
-    max-width: 100%;
-  }
-
-  .about-text {
-    margin-inline: 30px;
-    margin-block: 10px;
-    text-align: justify;
-  }
-  
 }
 
 .about-in-touch {
@@ -923,4 +842,92 @@ justify-content: center;
   .footer-main {
     flex-direction: column;
   }  
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ WORK PAGE MEDIA QUERIES ++++++++++++++++++++++++++++++++++++++++++ */
+/* ---------WORK GALLERY MEDIA ------------------- */
+@media (max-aspect-ratio: 1/1) { */
+  .work-gallery li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) {
+  .work-gallery li {
+    height: 80vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .work-gallery {
+    flex-direction: row;
+  }
+
+  .work-gallery li {
+    height: auto;
+    width: 100%;
+  }
+  .img-wrk {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+/* ---------------WORK VIDEO SECTION MEDIA QUERIES ---------------------- */
+@media (max-width: 800px) {
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    column-gap: 50px;
+    
+  }
+  .video video {
+    height: 100vh;
+    width: 100vh;
+  }
+  
+}
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ABOUT PAGE MEDIA QUERIES++++++++++++++++++++++++++++++++++++ */
+/* PORTRAIT OF PHOTOGRAPHER */
+/* make image repsonsive on mobile */
+@media (max-width: 768px) {
+  .about-me-portrait img {
+width: 90%;
+  }
+  
+}
+
+/* control margin on mobile screens */
+@media (max-width: 768px) {
+  .about-me-txt p {
+margin-inline: 30px;
+  }
+  .about-intro p {
+    margin-inline: 30px;
+    text-align: justify;
+  }
+}
+
+
+/* style aoout image wrapper for mobile */
+@media (max-width: 768px) {
+  .about-img-wrapper {
+    flex-direction: column;
+  }
+
+  .about-img-wrapper img {
+    max-width: 100%;
+  }
+
+  .about-text {
+    margin-inline: 30px;
+    margin-block: 10px;
+    text-align: justify;
+  }
+  
 }
