@@ -759,9 +759,15 @@ footer a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .about-me-portrait img {
-  width: 50%;
+  width: 70%;
+}
+
+/* make image repsonsive on mobile */
+@media (max-width: 768px) {
+  .about-me-portrait img {
+width: 100%;
+  }
 }
