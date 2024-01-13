@@ -148,11 +148,109 @@ This section showcases another strand of the companies work. Allowing the user t
 * Users can see information about the company's address, a small motto/vision, how to contact the company and links to social media profiles. This is responsive on all devices.
 *Desktop View
 <br>
-<img src="images/readme images/footer-desktop.PNG">
+<img src="images/readme images/footer-desktop.PNG" width="500px">
 * Mobile View
 <br>
-<img src="images/readme images/footer-mobile.PNG">
+<img src="images/readme images/footer-mobile.PNG" width="250px">
+
+# Work Page
+* Nav bar remains consistent across all pages.
+## Work Banner
+* Desktop
+<img src="images/readme images/work-page-desktop.PNG" width="500px">
+* Mobile
+<img src="images/readme images/work-page-mobile.PNG" width="250px">
+
+## Work Video Section
+* This is a responsive web layout designed using flexbox of some mobile/TikTok style videos that were created by me for brands/clients. The users can view these images on mobile/desktop and it will hopefully give them a sense of how creative/good I am at creating video/moving content.
+* Desktop
+<img src="images/readme images/video-section-desktop.PNG" width="500px">
+* Mobile 
+<img src="images/readme images/video-section-mobile.PNG" width="250px"> 
+
+# About Me Page
+## Design
+* This page follows are very different design, it's not full of imagery. It's more minimalist and is there to give the user more information on the person/photographer/company. It includes more text, a bio, and portrait of the photographer similar to the homepage. If creating this further I would add more of my own style to it, use my own language, make it a little bit more fun. Add things like where I'm from, what I did growing up, if I was into sport or not etc. A personal CV. But, for the purpose of this project I was maxmising my time spent writing and more time spent designing writing the code. 
+* Desktop View
+<img src="images/readme images/about-me-banner-desktop.PNG" width="500px">
+* Mobile View
+<img src="images/readme images/about-me-banner.PNG" width="250px">
+* The page consists of a few more CTA buttons, which are designed consistently across the website and take the user to the contact me page.
+<img src="images/readme images/about-me-cta.PNG" width="250px">
+
+# Contact Me Page
 
 
 
- 
+# Technologies Used
+
+
+# Testing
+
+
+# Functionality
+
+
+## Deployment of This Project
+
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
+
+* This site was deployed by completing the following steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be deployed.
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Select the "main" branch and select "Save".
+7. The link to the live website was ready on the top.
+
+## Forking This Project
+
+* Fork this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be forked.
+3. Find the 'Fork' button to the top right of the page.
+4. Once you click the button the fork will be in your repository..
+
+## Cloning This Project
+
+* Clone this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be cloned.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL..
+4. Once you click the button the fork will be in your repository.
+5. Open a new terminal.
+6. Change the current working directory to the location that you want the cloned directory.
+7. Type 'git clone' and paste the URL copied in step 3.
+8. Press 'Enter' and the project is cloned.
+
+# Credits
+
+### Information Sources/Resources
+
+* [W3Schools](https://www.w3schools.com/).
+
+* [Stack Overflow](https://stackoverflow.com/).
+
+### Navbar Inspiration 
+* Love Running Project CodeInstitute
+* [Responsive NavBar With Hover Effect - Kevin Powell](https://codepen.io/kevinpowell/pen/jxppmr)
+
+### Gallery Inspiration
+* Flexbox Tricks Website - when learning more information on flexbox, I came across this website which has significantly helped my understanding of flexbox. Also, there was a flexbox example section which included a really nice repsonsive gallery built on flexbox which I used to develop on my own website. 
+You can find it here [Gallery Inspiration](https://css-tricks.com/adaptive-photo-layout-with-flexbox/)
+
+### Content
+All the text content is orginal.
+
+### Imagery 
+The imagery content was taken by myself.
+
+### Video 
+The videos were also created by me. The homepage video was provided and used under the Pexels licence [Unsplash.com](https://www.pexels.com/)
+
+### Footer Icons
+All icons were provided by [FontAwesome](https://fontawesome.com/)
