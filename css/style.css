@@ -23,6 +23,8 @@ h3 {
   line-height: 1;
 }
 
+/* --------------------------------------------------------------------------HOME PAGE------------------------------------------------------------------ */
+
 /* -------------------------------- */
 /* ----- main hero banner section------- */
 /* -------------------------------- */
@@ -45,6 +47,7 @@ h3 {
   font-weight: 900;
   font-size: 3rem;
   margin: 20px;
+  transition: ease-in-out 350ms;
 }
 
 .content h2:hover {
@@ -182,12 +185,12 @@ nav a:hover {
   flex-wrap: wrap;
 }
 
-.info .img {
+.info .info-img {
   flex-grow: 1;
   flex-basis: calc(55% - 20px);
   min-width: 300px;
 }
-.img img {
+.info-img img {
   display: block;
   max-width: 100%;
 }
@@ -242,7 +245,7 @@ nav a:hover {
 .video-content h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2em;
   margin-inline: 20px;
   margin-block: 30px;
   padding: 30px 0;
@@ -277,7 +280,7 @@ nav a:hover {
 .clients h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2em;
   color: white;
   margin-top: 0;
   margin-inline: 20px;
@@ -326,7 +329,7 @@ nav a:hover {
 .main-gallery h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2em;
   margin-inline: 20px;
   margin-block: 30px;
   padding: 30px 0;
@@ -360,41 +363,6 @@ nav a:hover {
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-}
-
-@media (max-aspect-ratio: 1/1) {
-  .home-gallery li {
-    height: 30vh;
-  }
-}
-
-@media (max-height: 480px) {
-  .home-gallery li {
-    height: 80vh;
-  }
-}
-
-@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
-  .home-gallery {
-    flex-direction: row;
-  }
-
-  .home-gallery li {
-    height: auto;
-    width: 100%;
-  }
-  .img-hme {
-    width: 100%;
-    max-height: 75vh;
-    min-width: 0;
-  }
-}
-
-/* center text for homepage gallery on wider screens */
-@media  screen and (min-width: 768px) {
-  .main-gallery h2 {
-    text-align: center;
-  }
 }
 
 /* -------------------------------- */
@@ -475,117 +443,7 @@ footer a:hover {
   font-size: 1.5em;
 }
 
-/*  footer design for mobile */
-@media screen and (max-width: 768px) {
-  .footer-main {
-    flex-direction: column;
-  }  
-}
-
-/* center text in video section on wider screens */
-@media  screen and (min-width: 768px) {
-  .video-content h2 {
-    text-align: center;
-  }
-}
-
-/*  Have the partners section show in a row on larger screens*/
-@media  screen and (min-width: 768px) {
-  .flex-item {
-    width: 200px;
-    flex-direction: row;
-  }
-}
-
-/* Create the navbar for wider screens */
-
-@media screen and (min-width: 768px) {
-  .nav-toggle-label {
-    display: none;
-  }
-
-  header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-  }
-
-  .logo {
-    grid-column: 2 / 3;
-  }
-
-  nav {
-    position: relative;
-    text-align: left;
-    transition: none;
-    transform: scale(1,1);
-    background: none;
-    top: initial;
-    left: initial;
-    grid-column: 3 / 4;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  nav ul {
-    display: flex;
-  }
-  nav li {
-    margin-left: 3em;
-    margin-bottom: 0;
-  }
-  nav a {
-    opacity: 1;
-    position: relative;
-  }
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background: #FCA311;
-    position: absolute;
-    top: -.75em;
-    left: 0;
-    right: 0;
-    transform: scale(0,1);
-    transition: transform ease-in-out 250ms;
-  }
-
-  nav a:hover::before {
-    transform: scale(1,1);
-  }
-}
-
-/* There was a weird break in the info section at 900px, this fixes it */
-
-@media screen and (min-width: 900px) {
-  .info {
-    background-color: #14213d;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .info .img {
-    flex-grow: 1;
-    flex-basis: calc(50% - 20px);
-    /* margin: 10px; */
-    min-width: 300px;
-  }
-  .img img {
-    display: block;
-    max-width: 100%;
-  }
-  .info-txt {
-    flex-grow: 1;
-    flex-basis: calc(50% - 22px);
-    margin-inline: 20px;
-    margin-block: 20px;
-    min-width: 300px;
-  }
-}
-
-
-/* --------------------------------------------WORK PAGE-------------------------------------- */
+/* -----------------------------------------------------------------WORK PAGE--------------------------------------------------------------------- */
 
 /* -------------------------------- */
 /* ----- work banner section------- */
@@ -610,6 +468,12 @@ footer a:hover {
   font-weight: 900;
   font-size: 3rem;
   margin: 20px;
+  transition: ease-in-out 350ms;
+}
+
+.work-banner h2:hover {
+  text-shadow: 0.5px 0.5px 10px #FCA311, 0 0 1em #14213d, 0 0 0.2em #14213d;
+  transform: translateY(-0.25em);
 }
 
 /* -------------------------------- */
@@ -733,8 +597,10 @@ footer a:hover {
   
 }
 
-/* --------------------------------------------ABOUT PAGE-------------------------------------- */
-
+/* --------------------------------------------------------------ABOUT PAGE------------------------------------------------------- */
+/* -------------------------------- */
+/* ----- ABOUT INTRODUCTION------- */
+/* -------------------------------- */
 .about-intro {
   display: flex;
   align-items: center;
@@ -750,6 +616,12 @@ footer a:hover {
     font-weight: 900;
     font-size: 3rem;
     margin: 20px;
+    transition: ease-in-out 350ms;
+  }
+
+  .about-intro h1:hover {
+    text-shadow: 0.5px 0.5px 10px #FCA311, 0 0 1em #FCA311, 0 0 0.2em #ffffff;
+    transform: translateY(-0.25em);
   }
   .about-intro p {
     /* text-align: center; */
@@ -761,6 +633,9 @@ footer a:hover {
     color: #14213d;
 }
 
+/* -------------------------------- */
+/* ----- ABOUT THE PHOTOGRAPHER AND PORTRAIT------- */
+/* -------------------------------- */
 .about-me-portrait {
   display: flex;
   align-items: center;
@@ -785,6 +660,7 @@ width: 90%;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  font-size: 16px;
   color: #14213d;
 }
 
@@ -797,4 +673,254 @@ margin-inline: 30px;
     margin-inline: 30px;
     text-align: justify;
   }
+}
+
+/* -------------------------------- */
+/* ----- ABOUT THE IMAGES SECTION------- */
+/* -------------------------------- */
+.about-img-wrapper {
+  background-color: rgb(20, 33, 61);
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.about-text {
+  color: white;
+  margin-inline: 60px;
+  margin-block: 30px;
+  min-width: 300px;
+}
+
+.about-text h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: rgb(252, 163, 17);
+  padding-top: 10px;
+  transition: ease-in-out 350ms;
+}
+
+.about-text p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.about-img-wrapper img {
+  max-width: 500px;
+}
+
+/* style aoout image wrapper for mobile */
+@media (max-width: 768px) {
+  .about-img-wrapper {
+    flex-direction: column;
+  }
+
+  .about-img-wrapper img {
+    max-width: 100%;
+  }
+
+  .about-text {
+    margin-inline: 30px;
+    margin-block: 10px;
+    text-align: justify;
+  }
+  
+}
+
+.about-in-touch {
+background-image: url("https://res.cloudinary.com/dhktvbrfa/image/upload/v1704823770/cx-24-min_ez3jb1.jpg");
+background-color: rgba(20, 33, 61, 0.6);
+background-blend-mode: multiply;
+background-size: cover;
+width: 100%;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ------------nav bar media query----------------------- */
+/* Create the navbar for wider screens */
+
+@media screen and (min-width: 768px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+  }
+
+  .logo {
+    grid-column: 2 / 3;
+  }
+
+  nav {
+    position: relative;
+    text-align: left;
+    transition: none;
+    transform: scale(1,1);
+    background: none;
+    top: initial;
+    left: initial;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    margin-left: 3em;
+    margin-bottom: 0;
+  }
+  nav a {
+    opacity: 1;
+    position: relative;
+  }
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background: #FCA311;
+    position: absolute;
+    top: -.75em;
+    left: 0;
+    right: 0;
+    transform: scale(0,1);
+    transition: transform ease-in-out 250ms;
+  }
+
+  nav a:hover::before {
+    transform: scale(1,1);
+  }
+}
+
+/* --------------------------INFO SECTION MEDIA QUERY-------------------------------- */
+/* There was a weird break in the info section at 900px, this fixes it */
+
+@media screen and (min-width: 900px) {
+  .info {
+    background-color: #14213d;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .info .img {
+    flex-grow: 1;
+    flex-basis: calc(50% - 20px);
+    /* margin: 10px; */
+    min-width: 300px;
+  }
+  .img img {
+    display: block;
+    max-width: 100%;
+  }
+  .info-txt {
+    flex-grow: 1;
+    flex-basis: calc(50% - 22px);
+    margin-inline: 20px;
+    margin-block: 20px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info-txt p {
+    text-align: justify;
+  }
+  
+}
+
+
+/* ----------------homepage video section media query------------------ */
+/* center text in video section on wider screens */
+@media  screen and (min-width: 768px) {
+  .video-content h2 {
+    text-align: center;
+  }
+}
+
+
+/* ------------------------PARTNERS SECTION MEDIA QUERY---------------------------- */
+/*  Have the partners section show in a row on larger screens*/
+@media  screen and (min-width: 768px) {
+  .flex-item {
+    width: 200px;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .clients p {
+    text-align: justify;
+  }
+}
+
+/* ---------gallery homepage media queries -------------------- */
+@media (max-aspect-ratio: 1/1) {
+  .home-gallery li {
+    height: 30vh;
+  }
+}
+
+@media (max-height: 480px) {
+  .home-gallery li {
+    height: 80vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  .home-gallery {
+    flex-direction: row;
+  }
+
+  .home-gallery li {
+    height: auto;
+    width: 100%;
+  }
+  .img-hme {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
+}
+
+/* center text for homepage gallery on wider screens */
+@media  screen and (min-width: 768px) {
+  .main-gallery h2 {
+    text-align: center;
+  }
+}
+
+
+/* ----------------footer media query----------------------- */
+@media screen and (max-width: 768px) {
+  .footer-main {
+    flex-direction: column;
+  }  
 }
