@@ -735,3 +735,25 @@ footer a:hover {
 
 /* --------------------------------------------ABOUT PAGE-------------------------------------- */
 
+.about-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  height: 300px;
+  padding-top: 60px;
+  }
+
+  .about-intro h1 {
+    color:#14213d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 20px;
+  }
+
+
+  
+  .about-intro p {
+    text-align: center;
+}
