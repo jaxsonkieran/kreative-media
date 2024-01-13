@@ -751,9 +751,17 @@ footer a:hover {
     font-size: 3rem;
     margin: 20px;
   }
-
-
-  
   .about-intro p {
     text-align: center;
+}
+
+.about-me-portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-me-portrait img {
+  width: 50%;
 }
