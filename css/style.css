@@ -758,6 +758,7 @@ footer a:hover {
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    color: #14213d;
 }
 
 .about-me-portrait {
@@ -784,6 +785,7 @@ width: 90%;
   line-height: 1.5;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  color: #14213d;
 }
 
 /* control margin on mobile screens */
