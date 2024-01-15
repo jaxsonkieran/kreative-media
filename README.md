@@ -84,99 +84,99 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 ### Navigation Menu
 #### Desktop 
 <br>
-<img src="images/readme images/desktop-nav.PNG">
+<img src="documentation/readme images/desktop-nav.PNG">
 
 #### Mobile Menu Closed
 <br>
-<img src="images/readme images/mobile-nav-closed.png">
+<img src="documentation/readme images/mobile-nav-closed.png">
 
 
 #### Mobile Menu Open
-<img src="images/readme images/mobile-nav-open.png">
+<img src="documentation/readme images/mobile-nav-open.png">
 
 #### Mobile Menu 
 <br>
-<img src="images/readme images/mobile-nav.PNG">
+<img src="documentation/readme images/mobile-nav.PNG">
 
 * At the top of the website, users can find a fixed navigation menu that is fully responsive in all devices. In this navigation menu users can navigate to the different pages in the website. The KreativeMedia logo is also visible on all devices.
 
 ## Home Page Header
 * This section of the website users can see a sporting photography image as a background followed by a short bio about the photographer. This is giving the users some info on the photogreapher while also sharing some work.
 <br>
-<img src="images/readme images/home-page.PNG">
+<img src="documentation/readme images/home-page.PNG">
 
 ## About Section
 This section is small, it is about the photographer and a button links to view more about his work experience. 
 
 * Mobile view
 <br>
-<img src="images/readme images/about-mobile.PNG">
+<img src="documentation/readme images/about-mobile.PNG">
 
 * Desktop view
 <br>
-<img src="images/readme images/about-desktop.PNG">
+<img src="documentation/readme images/about-desktop.PNG">
 <br>
 
 ## Video Section
 This section showcases another strand of the companies work. Allowing the user to see that the company does more than just imagery. A video that is embedded via YouTube, again focusing on keeping space on the website and ensuring speed is top priority. 
 <br>
-<img src="images/readme images/video-section.PNG">
+<img src="documentation/readme images/video-section.PNG">
 <br>
 
 ## Client Section
 * This is something that is scalable, built on flexbox it allows for more clients to be added as time goes on. This showcases the clients the company has worked with so the users can start to build a certain level of trust with the photographer. 
 * Desktop View
 <br>
-<img src="images/readme images/clients-desktop.PNG">
+<img src="documentation/readme images/clients-desktop.PNG">
 <br>
 * Mobile View
 <br>
-<img src="images/readme images/clients-mobile.PNG">
+<img src="documentation/readme images/clients-mobile.PNG">
 
 
 ## Home page Gallery
 * This is a small gallery showcasing the company/photographer's work. It is there to provide a taste of what can be done at a sporting event, or other. The images are housed on Cloudinary, freeing up some space on the website. Lazy loading is applied to ensure speed is priority. The images are also resized down from their original. The gallery is build on flexbox and is fully responsive. 
 * Desktop View
 <br>
-<img src="images/readme images/gallery-desktop.PNG">
+<img src="documentation/readme images/gallery-desktop.PNG">
 
 * Mobile View 
 <br>
-<img src="images/readme images/gallery-mobile.PNG">
+<img src="documentation/readme images/gallery-mobile.PNG">
 
 ## Footer Section
 * Users can see information about the company's address, a small motto/vision, how to contact the company and links to social media profiles. This is responsive on all devices.
 *Desktop View
 <br>
-<img src="images/readme images/footer-desktop.PNG" width="500px">
+<img src="documentation/readme images/footer-desktop.PNG">
 * Mobile View
 <br>
-<img src="images/readme images/footer-mobile.PNG" width="250px">
+<img src="documentation/readme images/footer-mobile.PNG">
 
 # Work Page
 * Nav bar remains consistent across all pages.
 ## Work Banner
 * Desktop
-<img src="images/readme images/work-page-desktop.PNG" width="500px">
+<img src="documentation/readme images/work-page-desktop.PNG">
 * Mobile
-<img src="images/readme images/work-page-mobile.PNG" width="250px">
+<img src="documentation/readme images/work-page-mobile.PNG">
 
 ## Work Video Section
 * This is a responsive web layout designed using flexbox of some mobile/TikTok style videos that were created by me for brands/clients. The users can view these images on mobile/desktop and it will hopefully give them a sense of how creative/good I am at creating video/moving content.
 * Desktop
-<img src="images/readme images/video-section-desktop.PNG" width="500px">
+<img src="documentation/readme images/video-section-desktop.PNG">
 * Mobile 
-<img src="images/readme images/video-section-mobile.PNG" width="250px"> 
+<img src="documentation/readme images/video-section-mobile.PNG"> 
 
 # About Me Page
 ## Design
 * This page follows are very different design, it's not full of imagery. It's more minimalist and is there to give the user more information on the person/photographer/company. It includes more text, a bio, and portrait of the photographer similar to the homepage. If creating this further I would add more of my own style to it, use my own language, make it a little bit more fun. Add things like where I'm from, what I did growing up, if I was into sport or not etc. A personal CV. But, for the purpose of this project I was maxmising my time spent writing and more time spent designing writing the code. 
 * Desktop View
-<img src="images/readme images/about-me-banner-desktop.PNG" width="500px">
+<img src="documentation/readme images/about-me-banner-desktop.PNG">
 * Mobile View
-<img src="images/readme images/about-me-banner.PNG" width="250px">
+<img src="documentation/readme images/about-me-banner.PNG">
 * The page consists of a few more CTA buttons, which are designed consistently across the website and take the user to the contact me page.
-<img src="images/readme images/about-me-cta.PNG" width="250px">
+<img src="documentation/readme images/about-me-cta.PNG">
 
 # Contact Me Page
 
