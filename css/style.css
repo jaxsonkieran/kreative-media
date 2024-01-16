@@ -735,12 +735,26 @@ justify-content: center;
     transform: translateY(50%);
   }
 }
-
+/* fixes mobile hover state for the pop up text */
 @media (hover: none) {
   .card:hover .services-card-content {
     transform: translateY(50%);
   }
 }
+
+/* ---------- get in touch banner ------------ */
+
+.service-in-touch {
+  background-image: url("https://res.cloudinary.com/dhktvbrfa/image/upload/v1704823759/cx-4_v57v9y.jpg");
+  background-color: rgba(20, 33, 61, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 
 
