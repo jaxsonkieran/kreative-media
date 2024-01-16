@@ -726,16 +726,9 @@ justify-content: center;
   margin-inline: 20px;
 }
 
-
-.card:hover .services-card-content {
-  transform: translateY(60%);
+.card:hover .services-card-content, .card:active .services-card-content {
+  transform: translateY(50%);
 }
-
-
-
-
-
-
 
 
 
