@@ -730,6 +730,12 @@ justify-content: center;
   transform: translateY(50%);
 }
 
+@media(hover: hover) and (pointer: fine) {
+  .card:hover .services-card-content, .card:active .services-card-content {
+transform: translateY(50%);
+}
+}
+
 
 
 
