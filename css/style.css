@@ -726,14 +726,20 @@ justify-content: center;
   margin-inline: 20px;
 }
 
-.card:hover .services-card-content, .card:active .services-card-content {
+/* .card:hover .services-card-content, {
   transform: translateY(50%);
+} */
+
+@media(hover: hover) {
+  .card:hover .services-card-content {
+    transform: translateY(50%);
+  }
 }
 
-@media(hover: hover) and (pointer: fine) {
-  .card:hover .services-card-content, .card:active .services-card-content {
-transform: translateY(50%);
-}
+@media (hover: none) {
+  .card:hover .services-card-content {
+    transform: translateY(50%);
+  }
 }
 
 
