@@ -673,6 +673,7 @@ justify-content: center;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+
 }
 
 
@@ -682,7 +683,6 @@ justify-content: center;
   border: 1px solid black;
   margin: 0 20px;
   position: relative;
-  overflow: hidden;
   box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
   border-radius: 20px;
 }
@@ -708,15 +708,18 @@ justify-content: center;
 }
 
 .services-card-content {
-  background-color: rgba(0, 0, 0, 0.192);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   color: white;
-  backdrop-filter: blur(4px);
+/*   backdrop-filter: blur(4px); */
   position: absolute;
-  height: 100%;
-  width: 100%;
+  top: 60%;
+  bottom: 0;
+/*   height: 50%; */
+/*   width: 100%; */
   padding: 10px;
-  transform: translateY(100%);
-  transition: all 500ms ease-in-out;
+/*   transform: translateY(100%);
+  /* transition: all 500ms ease-in-out;  I am removing this hover state effect due to mobile  */
 }
 
 .services-card-content p {
@@ -726,22 +729,34 @@ justify-content: center;
 .services-card-content h2, p {
   margin-inline: 25px;
 }
-
-/* .card:hover .services-card-content, {
+/* 
+.card:hover .services-card-content {
   transform: translateY(50%);
 } */
-
+/* 
 @media(hover: hover) {
   .card:hover .services-card-content {
     transform: translateY(50%);
   }
-}
-/* fixes mobile hover state for the pop up text */
-@media (hover: none) {
+} */
+
+/* @media (hover: none) {
   .card:hover .services-card-content {
     transform: translateY(50%);
   }
+} */
+
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    margin-top: 20px;
+  }
 }
+
 
 /* ---------- get in touch banner ------------ */
 
