@@ -627,7 +627,7 @@ footer a:hover {
 .about-text {
   color: white;
   margin-inline: 60px;
-  margin-block: 10px;
+  margin-block: 30px;
   min-width: 300px;
 }
 
@@ -664,6 +664,29 @@ justify-content: center;
 
 
 /* ----------------------------------------------------------------- SERVICES PAGE ------------------------------------------------------------- */
+
+.services-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  height: 300px;
+  padding-top: 60px;
+  }
+
+  .services-intro h1 {
+    color:#14213d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 10px;
+    transition: ease-in-out 350ms;
+  }
+
+  .services-intro h1:hover {
+    text-shadow: 0.5px 0.5px 10px #FCA311, 0 0 1em #FCA311, 0 0 0.2em #ffffff;
+    transform: translateY(-0.25em);
+  }
 
 /* SERVICES IMAGE CARDS */
 
