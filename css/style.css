@@ -627,7 +627,7 @@ footer a:hover {
 .about-text {
   color: white;
   margin-inline: 60px;
-  margin-block: 30px;
+  margin-block: 10px;
   min-width: 300px;
 }
 
