@@ -672,6 +672,7 @@ justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 
@@ -719,11 +720,11 @@ justify-content: center;
 }
 
 .services-card-content p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .services-card-content h2, p {
-  margin-inline: 20px;
+  margin-inline: 25px;
 }
 
 /* .card:hover .services-card-content, {
