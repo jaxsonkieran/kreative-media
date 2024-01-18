@@ -1245,7 +1245,7 @@ margin-inline: 30px;
 }
 
 
-/* style aoout image wrapper for mobile */
+/* style about image wrapper for mobile */
 @media (max-width: 768px) {
   .about-img-wrapper {
     flex-direction: column;
@@ -1256,10 +1256,11 @@ margin-inline: 30px;
   }
 
   .about-text {
-    margin-inline: 30px;
+    margin-inline: 10px;
     margin-block: 10px;
     text-align: justify;
   }
+  
   .button-more {
     margin-block: 10px;
   }

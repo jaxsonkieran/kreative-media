@@ -25,7 +25,6 @@ This is a Front End Website for my business in sports photography and social med
     * [Navigation Menu](#navigation-menu)
     * [Home Page Header](#home-page-header)
     * [About Section](#about-section)
-    * [Video Section](#video-section)
     * [Client Section](#client-section)
     * [Home Page Gallery](#home-page-gallery)
     * [Footer Section](#footer-section)
@@ -37,6 +36,14 @@ This is a Front End Website for my business in sports photography and social med
 *[Technologies Used](#technologies-used)
     *[Languages](#languages)
 *[Testing](#testing)
+    *[Bugs](#bugs)
+    *[Website Development Issues](#website-development-issues)
+*[Deployment](#deployment)
+    *[Deployment Of This Project](#deployment-of-this-project)
+    *[Forking This Project](#forking-this-project)
+    *[Cloning This Project](#cloning-this-project)
+*[Credits](#credits)
+*[Content of site](#content)
 
 
 
@@ -71,13 +78,11 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 
 ### Imagery
 *The imagery used on this website is from my own personal bank of content that I have taken. If required I will use [Pixabay](https://pixabay.com/) to get royalty free imagery, but at this time there is no requirement. 
-* The images are housed on Cloudinary. Cloudinary provides a secure and comprehensive API for easily uploading media files from server-side code, directly from the browser or from a mobile application. 
+* The images have all been converted to WebP.
 * I added 'loading=lazy' to the images as with lazy loading, a webpage starts off smaller than its full size and thus loads faster. Speedy web performance has numerous benefits, including better SEO, higher conversion rates, and an improved user experience.
-* Please note the images were sized down for online use. 
 
 ### Videos
-* I wanted to include videos on my website but found it very difficult to ensure they were responsive on all devices without uploading the video into the website itself. I know it's better hosted online somewhere as it reduces the memory and will also help with speed. This led me to do a lot of research on [StackOverflow](https://stackoverflow.com/) which then led me to this responsive iframes article build through CSS which guided me through the process of making my videos responsive on all devices, credit Ben Marshall [Ben Marshall Responsive iframes](https://benmarshall.me/responsive-iframes/).
-* I also created a flexbox responsive video gallery on the work page that shows my social media/IG reels that have been created for certain brands. You can see the codepen here [Kieran Jackson Codepen](https://codepen.io/Kieran-Jackson/pen/eYXBVqa)
+* I wanted to include videos on my website but found it very difficult to ensure they were responsive on all devices without uploading the video into the website itself. I know it's better hosted online somewhere as it reduces the memory and will also help with speed. This led me to do a lot of research on [StackOverflow](https://stackoverflow.com/). I created a flexbox responsive video gallery on the work page that shows my social media/IG reels that have been created for certain brands. You can see the codepen here [Kieran Jackson Codepen](https://codepen.io/Kieran-Jackson/pen/eYXBVqa)
 
 ### Interactive Links
 *At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Instagram). Users can also click on the mobile phone which will allow them to ring. They can also click the email which will bring up their email application. Once these icons are clicked they all open in a new tab.
@@ -124,14 +129,9 @@ This section is small, it is about the photographer and a button links to view m
 <img src="documentation/readme images/about-desktop.PNG">
 <br>
 
-## Video Section
-This section showcases another strand of the companies work. Allowing the user to see that the company does more than just imagery. A video that is embedded via YouTube, again focusing on keeping space on the website and ensuring speed is top priority. 
-<br>
-<img src="documentation/readme images/video-section.PNG">
-<br>
-
 ## Client Section
 * This is something that is scalable, built on flexbox it allows for more clients to be added as time goes on. This showcases the clients the company has worked with so the users can start to build a certain level of trust with the photographer. 
+
 * Desktop View
 <br>
 <img src="documentation/readme images/clients-desktop.PNG">
@@ -142,7 +142,7 @@ This section showcases another strand of the companies work. Allowing the user t
 
 
 ## Home page Gallery
-* This is a small gallery showcasing the company/photographer's work. It is there to provide a taste of what can be done at a sporting event, or other. The images are housed on Cloudinary, freeing up some space on the website. Lazy loading is applied to ensure speed is priority. The images are also resized down from their original. The gallery is build on flexbox and is fully responsive. 
+* This is a small gallery showcasing the company/photographer's work. It is there to provide a taste of what can be done at a sporting event, or other. The images have been converted to WebP files. Lazy loading is applied to ensure speed is priority. The gallery is build on flexbox and is fully responsive. 
 * Desktop View
 <br>
 <img src="documentation/readme images/gallery-desktop.PNG">
@@ -244,13 +244,53 @@ Google Lighthouse was used to test Performance, Best Practices, Accessbility and
 
 I used Google Chrome Browser and the developer tools extensively to check responsiveness on different screen sizes, laptops, mobiles and tablets. Testing was also done on Firefox for desktop and on Apple iPhone 13. 
 
-Responsive on all devices between 300px - 2600px wide.
+* Responsive on all devices between 300px - 2600px wide.
 
+    * BlackBerry Z30 (360px x 640px)  
+    * BlackBerry PlayBook (600px x 1024px)  
+    * Samsung Galaxy Note 3 (360px x 640px) 
+    * Samsung Galaxy S3 (360px x 640px)   
+    * Samsung Galaxy S9+(320px x 658px) 
+    * LG Optimus L70 (384px x 640px)
+    * Microsoft Lumia 550 (640px x 360px) 
+    * Microsoft Lumia 950 (360px x 640px) 
+    * Nexus 4 (384px x 640px) 
+    * Nokia Lumia 520 (320px x 533px) 
+    * Nokia N9 (480px x 854px) 
+    * Pixel 3 (393px x 786px)
+    * Apple iPad Mini (468px x 4024)
+    * Apple iPhone 4 (320px x 480px)
+    * Apple iPhone 5/S (320px 568px)
+    * Apple iPhone 6/7/8 (375px x 667px)
+    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPhone X (375px x 812px)
+
+* Desktop Results:
+<img src="documentation/readme images/lighthouse-testing-desktop.PNG">
+
+* Mobile Results:
+<img src="documentation/readme images/lighthouse-testing-mobile.jpg">
 
 
 
 # Functionality
+* All links have been hovered and clicked to ensure accessibility.
+* Pages all load correctly on all devices.
+* Social Media Links are correct and open in new tab.
+* Client links are correct and open in a new tab.
+* All buttons are working and bring the users to the function they were built for.
+* Hover effects all work, link/button hover effects, heading text hover effects, and service card hover effects.
+* The videos hover effect is working.
+* The clients hover effect is working.
 
+# Bugs
+* I was unable to remove the space between the gallery and the footer on the homepage. 
+* I was unable to improve the performance of the website through minimising the size of the images  by converting them all to webp.
+
+# Website Development Issues
+* I had originally uploaded all of my images to a cloud based server thinking that this would save on space. It did not and I had to redownload the imagery and convert them to webp which then improved the performance.
+
+# Deployment
 
 ## Deployment of This Project
 
@@ -289,6 +329,8 @@ The website development was created in the "main" branch. This branch was deploy
 8. Press 'Enter' and the project is cloned.
 
 # Credits
+[Kevin Powell](https://www.kevinpowell.co/)
+[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ### Information Sources/Resources
 
