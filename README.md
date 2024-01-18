@@ -19,7 +19,6 @@ This is a Front End Website for my business in sports photography and social med
     * [Typography](#typography)
     * [Imagery](#imagery)
     * [Videos](#videos)
-    * [Google Maps](#google-maps)
     * [Interactive Links](#interactive-links)
 * [Features](#features)
     * [Home Page](#home-page)
@@ -30,6 +29,13 @@ This is a Front End Website for my business in sports photography and social med
     * [Client Section](#client-section)
     * [Home Page Gallery](#home-page-gallery)
     * [Footer Section](#footer-section)
+    *[Services Page](#services-page)
+    *[Contact Page](#contact-me-page)
+    *[Thanks Page](#thanks-page)
+*[Future Features](#future-features)
+    *[Customer Reviews](#customer-review-section)
+*[Technologies Used](#technologies-used)
+
 
 
 
@@ -49,7 +55,7 @@ This is a Front End Website for my business in sports photography and social med
 
 ### Design 
 #### Website Structure
-* KreativeMedia is a four page website consisting of the Home page, About page, Work page, and a contact form page. The Home page has four sections, an introduction (photo of the photographer and a small blurb) this section includes a button which will take the user to a page that includes more about me and the work that I do, a small list of some of the clients I've worked with in the past (client-info), a selection of my work (photography) this section also includes a button which will take the user to view the rest of my portfolio, the final section is a footer which includes contact details, and links to my social media. The Work page includes more of my work in photography and videography. The About Page includes four sections, a banner image, a section on services I offer, a grid on how the process works from ideation to creation to launch and a footer. The contact page has the nav bar at the top and the contact form, plus the footer that is standard across all pages. The navbar is also standard across all pages. 
+* KreativeMedia is a six page website consisting of the Home page, About page, Work page, Services Page and a contact form page, and once a user submits the form a thank you page. The Home page has four sections, an introduction (photo of the photographer and a small blurb) this section includes a button which will take the user to a page that includes more about me and the work that I do, a small list of some of the clients I've worked with in the past (client-info), a selection of my work (photography) this section also includes a button which will take the user to view the rest of my portfolio, the final section is a footer which includes contact details, and links to my social media. The Work page includes more of my work in photography and videography. The About Page includes four sections, a banner image, a section on the work that I do and a little bit more in depth into the photographer. The services page offers the user an insight into what I'm capable of. It includes three cards that show the services, plus a learn more link to take them to the contact page if they wish. The contact page includes the form, which when the user successfully submits it will take them to the thank you page. This is a standard landing page that identifies the form was successfully submitted and that the company will be in touch. It includes a button to take them back to the contact page. The navbar and footer is standard across all pages.
 
 ### Colour Scheme of the Website
 <br>
@@ -70,16 +76,13 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 * I wanted to include videos on my website but found it very difficult to ensure they were responsive on all devices without uploading the video into the website itself. I know it's better hosted online somewhere as it reduces the memory and will also help with speed. This led me to do a lot of research on [StackOverflow](https://stackoverflow.com/) which then led me to this responsive iframes article build through CSS which guided me through the process of making my videos responsive on all devices, credit Ben Marshall [Ben Marshall Responsive iframes](https://benmarshall.me/responsive-iframes/).
 * I also created a flexbox responsive video gallery on the work page that shows my social media/IG reels that have been created for certain brands. You can see the codepen here [Kieran Jackson Codepen](https://codepen.io/Kieran-Jackson/pen/eYXBVqa)
 
-### Google Maps
-*This website has a Google Maps location so users can locate my office/studio if needed. 
-
 ### Interactive Links
 *At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Instagram). Users can also click on the mobile phone which will allow them to ring. They can also click the email which will bring up their email application. Once these icons are clicked they all open in a new tab.
 
 
 ## Features
 ### Home Page
-* This is the first page a user will see if they click the main url to view my site. This page was created to be very visual but also to give small snippets about the photographer so that they can read and eventually go on to explore the rest of the website.
+* This is the first page a user will see if they click the main url to view my site. This page was created to be very visual but also to give small snippets about the photographer so that they can read and eventually go on to explore the rest of the website. [View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/index.html)
 
 ### Navigation Menu
 #### Desktop 
@@ -102,6 +105,7 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 
 ## Home Page Header
 * This section of the website users can see a sporting photography image as a background followed by a short bio about the photographer. This is giving the users some info on the photogreapher while also sharing some work.
+[View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/index.html)
 <br>
 <img src="documentation/readme images/home-page.PNG">
 
@@ -154,7 +158,8 @@ This section showcases another strand of the companies work. Allowing the user t
 <img src="documentation/readme images/footer-mobile.PNG">
 
 # Work Page
-* Nav bar remains consistent across all pages.
+* Nav bar remains consistent across all pages. This page is designed to show the work of the photographer. It is designed using a responsive image gallery built on flexbox. It also showcases some video/reel/tiktok gallery below, so the users get a full sense of the capabilities of the photographer/videographer. 
+[View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/work.html)
 ## Work Banner
 * Desktop
 <img src="documentation/readme images/work-page-desktop.PNG">
@@ -171,6 +176,7 @@ This section showcases another strand of the companies work. Allowing the user t
 # About Me Page
 ## Design
 * This page follows are very different design, it's not full of imagery. It's more minimalist and is there to give the user more information on the person/photographer/company. It includes more text, a bio, and portrait of the photographer similar to the homepage. If creating this further I would add more of my own style to it, use my own language, make it a little bit more fun. Add things like where I'm from, what I did growing up, if I was into sport or not etc. A personal CV. But, for the purpose of this project I was maxmising my time spent writing and more time spent designing writing the code. 
+* [View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/about.html)
 * Desktop View
 <img src="documentation/readme images/about-me-banner-desktop.PNG">
 * Mobile View
@@ -178,15 +184,55 @@ This section showcases another strand of the companies work. Allowing the user t
 * The page consists of a few more CTA buttons, which are designed consistently across the website and take the user to the contact me page.
 <img src="documentation/readme images/about-me-cta.PNG">
 
+# Services Page
+* This page was designed to show the types of services that KreativeMedia offers. At first, I didn't include it at the beginning but thought if I was coming to a similar webpage I'd like a services page to see what exactly the company offered. It was built again on flexbox, I introduced some hover effects on the cards but took them out due to difficulties getting the text to show on mobile. 
+* [View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/services.html)
+* Desktop View
+<img src="documentation/readme images/services-page-desktop.PNG">
+* Mobile View
+<img src="documentation/readme images/services-page-mobile.PNG">
+
 # Contact Me Page
+* On this page users can contact the KreativeMedia team via contact form. The contact form requires the users name, email, phone, subject and message. 
+*[View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/contact.html)
+* Desktop Page View
+<img src="documentation/readme images/contact-page-desktop.PNG">
+* Moile Page View
+<img src="documentation/readme images/contact-page-mobile.PNG">
 
+# Thanks Page
+* One the user successfully submits a contact form, they will land on the 'Thanks" page. When the back button is clicked it brings the users back to the contact form if they wish.
+[View The Live Page Here](https://jaxsonkieran.github.io/kreative-media/thank_you.html)
+* Desktop View
+<img src="documentation/readme images/thank-you-page-desktop.PNG">
+* Mobile View
+<img src="documentation/readme images/thank-you-page-mobile.PNG">
 
+# Future Features
+## Customer Review Section
+* I would add a customer review section underneath the clients that I've worked with on the home page. This would give more trust in a user/potential customer trusting me and taking me on as their content creator. 
 
 # Technologies Used
+## Languages
+* HTML5
+* CSS3
+
+## Frameworks - Libraries - Programs Used
+* [Google Fonts](https://fonts.google.com/)
+    * Google fonts were used to import the 'Lato' font throughout the style.css
+* [Font Awesome](https://fontawesome.com/)
+    * Font Awesome was used on icons for user UX purposes.
+* [Git](https://github.com/)
+    * Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to Github
+* [Cloudinary](https://console.cloudinary.com/console/c-7d5472c698ba74add25d4ad5cf6fc4/media_library/homepage)
+    * Cloudinary was used to house all imagery and videos so space was kept to a premium on the site. 
+* [Image Resizer](https://imageresizer.com/)
+    * Image resizer was used to resize the image, even as they were uploaded to the cloud. The files were big since they were taken on DSLR camera so I used this to help as much as possible with loading.
 
 
 # Testing
-
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+* 
 
 # Functionality
 

@@ -216,8 +216,13 @@ nav a:hover {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 1em;
-  padding-top: 10px;
+  margin-block: 30px;
   margin-inline:20px;
+}
+
+.button {
+  margin-block: 30px;
+  transition: ease-in-out 250ms;
 }
 
 .button-more {
@@ -227,16 +232,20 @@ nav a:hover {
   padding: 1em 1.5em;
   font-size: 1em;
   transition: ease-in-out 250ms;
-  margin-top: 10px;
   margin-inline: 20px;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 .button-more:hover {
   border-color: #ffffff;
   color: white;
   box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
-  transform: translateY(-0.25em);
   cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-0.25em);
 }
 
 /* -------------------------------- */
