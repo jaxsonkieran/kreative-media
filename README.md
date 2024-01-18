@@ -35,6 +35,9 @@ This is a Front End Website for my business in sports photography and social med
 *[Future Features](#future-features)
     *[Customer Reviews](#customer-review-section)
 *[Technologies Used](#technologies-used)
+    *[Languages](#languages)
+*[Testing](#testing)
+
 
 
 
@@ -231,9 +234,12 @@ This section showcases another strand of the companies work. Allowing the user t
 
 
 # Testing
-The [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-* Result 
+The [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/validator) were used to validate every page of the project to ensure there were no syntax errors in the project.
+* Result for HTML
 <img src="documentation/readme images/html-checker.PNG">
+* Result for CSS
+<img src="documentation/readme images/css-validator.PNG">
+
 
 # Functionality
 
