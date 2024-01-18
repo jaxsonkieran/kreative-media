@@ -915,6 +915,68 @@ justify-content: center;
   cursor: pointer;
 }
 
+.msg a{
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------THANK YOU PAGE----------------------------------------- */
+.thanks-header {
+  background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704987955/_DSF1647_luyohy.jpg);
+  background-color: #9c9b9b;
+  background-blend-mode: multiply;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding-top: 60px;
+  }
+
+  .thanks-header h1 {
+    color:#ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 20px;
+    transition: ease-in-out 350ms;
+  }
+
+  .thanks-header h1:hover {
+    text-shadow: 0.5px 0.5px 10px #FCA311, 0 0 1em #FCA311, 0 0 0.2em #ffffff;
+    transform: translateY(-0.25em);
+  }
+  .thanks-header p {
+    /* text-align: center; */
+    text-align: justify;
+    margin-inline: 65px;
+    line-height: 1.5;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.button-back {
+  background: none;
+  color: #FCA311;
+  border: 2px solid;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  transition: ease-in-out 250ms;
+  margin-top: 10px;
+  margin-inline: 20px;
+}
+
+.button-back:hover {
+  border-color: #ffffff;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
