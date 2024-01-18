@@ -355,11 +355,17 @@ nav a:hover {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  &:after {
-    content:'';
-    display:block;
+  /* &::after{
+    content: '';
+    display: block;
     flex-grow: 10;
-  }
+  } */
+}
+
+.home-gallery::after {
+  content: '';
+  display: block;
+  flex-grow: 10;
 }
 
 .home-gallery li {
@@ -508,11 +514,16 @@ footer a:hover {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  &:after {
+  /* &::after{
     content:'';
     display:block;
     flex-grow: 10;
-  }
+  } */
+}
+.work-gallery::after{
+  content:'';
+  display:block;
+  flex-grow: 10;
 }
 
 .work-gallery li {
@@ -1158,7 +1169,7 @@ justify-content: center;
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ WORK PAGE MEDIA QUERIES ++++++++++++++++++++++++++++++++++++++++++ */
 /* ---------WORK GALLERY MEDIA ------------------- */
-@media (max-aspect-ratio: 1/1) { */
+@media (max-aspect-ratio: 1/1) {
   .work-gallery li {
     height: 30vh;
   }
