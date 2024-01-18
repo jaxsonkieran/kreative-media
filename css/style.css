@@ -29,7 +29,7 @@ h3 {
 /* ----- main hero banner section------- */
 /* -------------------------------- */
 .content {
-  background-image: url("../images/gallery-images/hero-image.jpg");
+  background-image: url("../images/gallery-images/hero-image.webp");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -346,7 +346,7 @@ nav a:hover {
 }
 
 .home-gallery {
-  background-image: url("../images/gallery-images/mtb-06.jpg");
+  background-image: url("../images/gallery-images/mtb-06.webp");
   background-color: #14213d;
   background-blend-mode: multiply;
   background-size: cover;
@@ -466,7 +466,7 @@ footer a:hover {
 /* -------------------------------- */
 
 .work-banner {
-  background-image: url("../images/gallery-images/mtb-01.jpg");
+  background-image: url("../images/gallery-images/mtb-01.webp");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -504,7 +504,7 @@ footer a:hover {
 }
 
 .work-gallery {
-  background-image: url("../images/gallery-images/mtb-01.jpg");
+  background-image: url("../images/gallery-images/mtb-01.webp");
   background-color: #14213d;
   background-blend-mode: multiply;
   background-size: cover;
@@ -674,7 +674,7 @@ footer a:hover {
 }
 
 .about-in-touch {
-background-image: url("../images/gallery-images/cx-24-min.jpg");
+background-image: url("../images/gallery-images/cx-24.webp");
 background-color: rgba(20, 33, 61, 0.6);
 background-blend-mode: multiply;
 background-size: cover;
@@ -752,20 +752,20 @@ justify-content: center;
 }
 
 .card1 {
-  background: url("../images/gallery-images/mtb-04.jpg");
+  background: url("../images/gallery-images/mtb-04.webp");
   background-position: center;
   background-size: cover;
   
 }
 .card2 {
-  background: url("../images/gallery-images/2_nndtdt.png");
+  background: url("../images/gallery-images/video.webp");
   background-position: center;
   background-size: cover;
   
 }
 
 .card3 {
-  background: url("../images/gallery-images/1_nyfbdg.png");
+  background: url("../images/gallery-images/social.webp");
   background-position: center;
   background-size: cover;
   
@@ -833,7 +833,7 @@ justify-content: center;
 /* ---------- get in touch banner ------------ */
 
 .service-in-touch {
-  background-image: url("../images/gallery-images/cx-4.jpg");
+  background-image: url("../images/gallery-images/cx-4.webp");
   background-color: rgba(20, 33, 61, 0.6);
   background-blend-mode: multiply;
   background-size: cover;
@@ -848,7 +848,7 @@ justify-content: center;
 /* --------------------------------------------------------------------CONTACT ME PAGE ------------------------------------------------------ */
 
 .contact {
-  background-image: url("../images/gallery-images/cx-11.jpg");
+  background-image: url("../images/gallery-images/cx-11.webp");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -941,7 +941,7 @@ justify-content: center;
 
 /* -------------------------------------------------------THANK YOU PAGE----------------------------------------- */
 .thanks-header {
-  background: url("../images/gallery-images/thank-you-img.jpg");
+  background: url("../images/gallery-images/thank-you.webp");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
