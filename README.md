@@ -135,7 +135,7 @@ This section is small, it is about the photographer and a button links to the co
 
 * Desktop View
 <br>
-<img src="documentation/readme images/clients-v2-desktop.PNG.PNG">
+<img src="documentation/readme images/clients-v2-desktop.PNG">
 <br>
 * Mobile View
 <br>
