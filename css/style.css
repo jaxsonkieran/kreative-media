@@ -217,7 +217,6 @@ nav a:hover {
   font-weight: 300;
   font-size: 1em;
   padding-top: 10px;
-  /* margin-inline: 50px; */
 }
 
 .button-more {
@@ -226,7 +225,6 @@ nav a:hover {
   color: #FCA311;
   border: 2px solid;
   padding: 1em 1.5em;
-  /* margin-left: 5px; */
   font-size: 1em;
   transition: ease-in-out 250ms;
 }
@@ -236,6 +234,7 @@ nav a:hover {
   color: white;
   box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
   transform: translateY(-0.25em);
+  cursor: pointer;
 }
 
 /* -------------------------------- */
