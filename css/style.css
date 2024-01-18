@@ -724,6 +724,13 @@ justify-content: center;
   border-radius: 20px;
 }
 
+.card:hover {
+  border-color: #FCA311;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #FCA311;
+  transform: translateY(-0.25em);
+}
+
 .card1 {
   background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704989154/mtb-04_bbikiy.jpg);
   background-position: center;
