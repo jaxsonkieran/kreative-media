@@ -240,6 +240,14 @@ The [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and [W3C
 * Result for CSS
 <img src="documentation/readme images/css-validator.PNG">
 
+Google Lighthouse was used to test Performance, Best Practices, Accessbility and SEO on both Desktop and Mobile devices.
+
+I used Google Chrome Browser and the developer tools extensively to check responsiveness on different screen sizes, laptops, mobiles and tablets. Testing was also done on Firefox for desktop and on Apple iPhone 13. 
+
+Responsive on all devices between 300px - 2600px wide.
+
+
+
 
 # Functionality
 

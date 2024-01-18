@@ -29,7 +29,7 @@ h3 {
 /* ----- main hero banner section------- */
 /* -------------------------------- */
 .content {
-  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1705587235/hero-image_ftasgt.jpg);
+  background-image: url("../images/gallery-images/hero-image.jpg");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -346,7 +346,7 @@ nav a:hover {
 }
 
 .home-gallery {
-  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1705587235/hero-image_ftasgt.jpg);
+  background-image: url("../images/gallery-images/mtb-06.jpg");
   background-color: #14213d;
   background-blend-mode: multiply;
   background-size: cover;
@@ -466,7 +466,7 @@ footer a:hover {
 /* -------------------------------- */
 
 .work-banner {
-  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704989153/mtb-01_rmic8d.jpg);
+  background-image: url("../images/gallery-images/mtb-01.jpg");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -504,7 +504,7 @@ footer a:hover {
 }
 
 .work-gallery {
-  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1705587235/hero-image_ftasgt.jpg);
+  background-image: url("../images/gallery-images/mtb-01.jpg");
   background-color: #14213d;
   background-blend-mode: multiply;
   background-size: cover;
@@ -674,7 +674,7 @@ footer a:hover {
 }
 
 .about-in-touch {
-background-image: url("https://res.cloudinary.com/dhktvbrfa/image/upload/v1704823770/cx-24-min_ez3jb1.jpg");
+background-image: url("../images/gallery-images/cx-24-min.jpg");
 background-color: rgba(20, 33, 61, 0.6);
 background-blend-mode: multiply;
 background-size: cover;
@@ -752,20 +752,20 @@ justify-content: center;
 }
 
 .card1 {
-  background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704989154/mtb-04_bbikiy.jpg);
+  background: url("../images/gallery-images/mtb-04.jpg");
   background-position: center;
   background-size: cover;
   
 }
 .card2 {
-  background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1705423830/2_nndtdt.png);
+  background: url("../images/gallery-images/2_nndtdt.png");
   background-position: center;
   background-size: cover;
   
 }
 
 .card3 {
-  background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1705423830/1_nyfbdg.png);
+  background: url("../images/gallery-images/1_nyfbdg.png");
   background-position: center;
   background-size: cover;
   
@@ -833,7 +833,7 @@ justify-content: center;
 /* ---------- get in touch banner ------------ */
 
 .service-in-touch {
-  background-image: url("https://res.cloudinary.com/dhktvbrfa/image/upload/v1704823759/cx-4_v57v9y.jpg");
+  background-image: url("../images/gallery-images/cx-4.jpg");
   background-color: rgba(20, 33, 61, 0.6);
   background-blend-mode: multiply;
   background-size: cover;
@@ -848,7 +848,7 @@ justify-content: center;
 /* --------------------------------------------------------------------CONTACT ME PAGE ------------------------------------------------------ */
 
 .contact {
-  background-image: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704823765/cx-11_oyxakd.jpg);
+  background-image: url("../images/gallery-images/cx-11.jpg");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
@@ -941,7 +941,7 @@ justify-content: center;
 
 /* -------------------------------------------------------THANK YOU PAGE----------------------------------------- */
 .thanks-header {
-  background: url(https://res.cloudinary.com/dhktvbrfa/image/upload/v1704987955/_DSF1647_luyohy.jpg);
+  background: url("../images/gallery-images/thank-you-img.jpg");
   background-color: #9c9b9b;
   background-blend-mode: multiply;
   background-size: cover;
