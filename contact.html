@@ -34,14 +34,15 @@
         </label>
     </header>
     <main>
-        <div class="contact">
+        <!-- <div class="contact">
             <div class="wrapper">
                 <div class="contact-form">
+                 
                     <div class="input-fields">
                         <input type="text" id="name" class="input" placeholder="Name" required>
-                        <input type="text" id="email" class="input" placeholder="Email Address" required>
-                        <input type="text" id="phone" class="input" placeholder="Phone" required>
-                        <input type="text" id="message" class="input" placeholder="Subject">
+                        <input type="email" id="email" class="input" placeholder="Email Address" required>
+                        <input type="phone" id="phone" class="input" placeholder="Phone" required>
+                        <input type="message" id="message" class="input" placeholder="Subject">
                     </div>
                     <div class="msg">
                         <textarea placeholder="Message" required></textarea>
@@ -49,10 +50,25 @@
                             <div class="contact-btn">Send</div>
                         </a>
                     </div>
-
+                
                 </div>
             </div>
+        </div> -->
+        <div class="contact">
+        <div class="wrapper">
+            <form method="GET" action="thank_you.html" class="form-area">
+                <div class="details-area">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    <input type="phone" name="phone" id="phone" placeholder="Phone">
+                </div>
+                <div class="msg-area">
+                    <textarea id="msg" placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </div>
+    </div>
     </main>
 
     <!-- FOOTER -->
