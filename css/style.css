@@ -887,7 +887,8 @@ justify-content: center;
   background: transparent;
   color:#ffffff;
   padding: 15px;
-  border: 1px solid #FCA311;
+  border: 0;
+  border-bottom: 1px solid #FCA311;;
   height: 210px;
 }
 

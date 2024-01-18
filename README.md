@@ -119,7 +119,7 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 <img src="documentation/readme images/home-page.PNG">
 
 ## About Section
-This section is small, it is about the photographer and a button links to view more about his work experience. 
+This section is small, it is about the photographer and a button links to the contact page. 
 
 * Mobile view
 <br>
@@ -135,11 +135,11 @@ This section is small, it is about the photographer and a button links to view m
 
 * Desktop View
 <br>
-<img src="documentation/readme images/clients-desktop.PNG">
+<img src="documentation/readme images/clients-v2-desktop.PNG.PNG">
 <br>
 * Mobile View
 <br>
-<img src="documentation/readme images/clients-mobile.PNG">
+<img src="documentation/readme images/clients-v2-mobile.PNG">
 
 
 ## Home page Gallery
