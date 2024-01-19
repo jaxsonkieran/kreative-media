@@ -91,11 +91,11 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 # Wireframes
 ## Figma
 * Wireframes were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Figma was used to create these. <br>
-<img src="documentation/wireframe-images/wireframe-home-desktop.PNG" width="150px" height="225px">
-<img src="documentation/wireframe-images/wireframe-work-desktop.PNG" width="150px" height="225px">
-<img src="documentation/wireframe-images/wireframe-about-desktop.PNG" width="150px" height="225px">
-<img src="documentation/wireframe-images/wireframe-services-desktop.PNG" width="150px" height="225px">
-<img src="documentation/wireframe-images/wireframe-contact-desktop.PNG" width="150px" height="225px">
+* Home Page Desktop [View](/documentation/wireframe-images/wireframe-home-desktop.PNG)
+* Work Page Desktop [View](/documentation/wireframe-images/wireframe-work-desktop.PNG)
+* About Page Desktop [View](/documentation/wireframe-images/wireframe-about-desktop.PNG)
+* Services Page Desktop [View](/documentation/wireframe-images/wireframe-services-desktop.PNG)
+* Contact Page Desktop [View](/documentation/wireframe-images/wireframe-contact-desktop.PNG)
 
 ## Features
 ### Home Page
