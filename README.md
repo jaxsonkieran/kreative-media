@@ -21,6 +21,7 @@ This is a Front End Website for my business in sports photography and social med
     * [Imagery](#imagery)
     * [Videos](#videos)
     * [Interactive Links](#interactive-links)
+* [Wireframes](#wireframes)
 * [Features](#features)
     * [Home Page](#home-page)
     * [Navigation Menu](#navigation-menu)
@@ -91,12 +92,13 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 # Wireframes
 ## Figma
 * Wireframes were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Figma was used to create these. <br>
+## Desktop
 * Home Page Desktop [View](/documentation/wireframe-images/wireframe-home-desktop.PNG)
 * Work Page Desktop [View](/documentation/wireframe-images/wireframe-work-desktop.PNG)
 * About Page Desktop [View](/documentation/wireframe-images/wireframe-about-desktop.PNG)
 * Services Page Desktop [View](/documentation/wireframe-images/wireframe-services-desktop.PNG)
 * Contact Page Desktop [View](/documentation/wireframe-images/wireframe-contact-desktop.PNG)
-### Mobile
+## Mobile
 * Home Page Mobile [View](/documentation/wireframe-images/wireframe-home-mobile.PNG)
 * Work Page Mobile [View](/documentation/wireframe-images/wireframe-work-mobile.PNG)
 * About Page Mobile [View](/documentation/wireframe-images/wireframe-about-mobile.PNG)
