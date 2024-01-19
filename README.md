@@ -88,6 +88,14 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 ### Interactive Links
 *At the bottom of the Landing Page and footer, users can access the company social media links (Facebook and Instagram). Users can also click on the mobile phone which will allow them to ring. They can also click the email which will bring up their email application. Once these icons are clicked they all open in a new tab.
 
+# Wireframes
+## Figma
+* Wireframes were created to set out the initial appearance of the website while also making sure to keep the end-user in mind at all times. Figma was used to create these. <br>
+<img src="documentation/wireframe-images/wireframe-home-desktop.PNG" width="150px" height="225px">
+<img src="documentation/wireframe-images/wireframe-work-desktop.PNG" width="150px" height="225px">
+<img src="documentation/wireframe-images/wireframe-about-desktop.PNG" width="150px" height="225px">
+<img src="documentation/wireframe-images/wireframe-services-desktop.PNG" width="150px" height="225px">
+<img src="documentation/wireframe-images/wireframe-contact-desktop.PNG" width="150px" height="225px">
 
 ## Features
 ### Home Page
