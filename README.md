@@ -96,6 +96,12 @@ I wanted a clean minimalist typography for the website, so I imported 'Lato' fro
 * About Page Desktop [View](/documentation/wireframe-images/wireframe-about-desktop.PNG)
 * Services Page Desktop [View](/documentation/wireframe-images/wireframe-services-desktop.PNG)
 * Contact Page Desktop [View](/documentation/wireframe-images/wireframe-contact-desktop.PNG)
+### Mobile
+* Home Page Mobile [View](/documentation/wireframe-images/wireframe-home-mobile.PNG)
+* Work Page Mobile [View](/documentation/wireframe-images/wireframe-work-mobile.PNG)
+* About Page Mobile [View](/documentation/wireframe-images/wireframe-about-mobile.PNG)
+* Services Page Mobile [View](/documentation/wireframe-images/wireframe-services-mobile.PNG)
+* Contact Page Mobile [View](/documentation/wireframe-images/wireframe-contact-mobile.PNG)
 
 ## Features
 ### Home Page
