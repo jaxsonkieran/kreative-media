@@ -6,6 +6,8 @@
 Project milestone 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
 This is a Front End Website for my business in sports photography and social media content creation, called KreativeMedia. It's a website built to showcase my portfolio of work and attract new clients. (these are all my own images, so therefore do not need any credits). This website is built on four pages, a home, an about page, a work page and a contact page. Along the footer you will find links to contact via mobile/email and social media. It is built only using HTML and CSS languages as per project guidelines.
+[View The Live Site Here](https://jaxsonkieran.github.io/kreative-media/)
+<br>
 <img src="documentation/readme images/kreative-media-intro.jpg">
 
 ## Table of Contents
