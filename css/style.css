@@ -48,7 +48,6 @@ h3 {
   font-size: 3rem;
   margin: 20px;
   transition: ease-in-out 350ms;
-  font-display: swap;
 }
 
 .content h2:hover {
@@ -145,7 +144,6 @@ nav li {
   font-weight: 900;
   color: white;
   text-decoration: none;
-  font-display: swap;
 }
 /* add styling to logo text */
 .highlight {
@@ -162,7 +160,6 @@ nav a {
   text-transform: uppercase;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
-  font-display: swap;
 }
 
 nav a:hover {
@@ -212,7 +209,6 @@ nav a:hover {
   color: #FCA311;
   padding-top: 10px;
   margin-inline: 20px;
-  font-display: swap;
 }
 
 .info-txt p {
@@ -222,7 +218,6 @@ nav a:hover {
   font-size: 1em;
   margin-block: 30px;
   margin-inline: 20px;
-  font-display: swap;
 }
 
 .button {
@@ -240,7 +235,6 @@ nav a:hover {
   margin-inline: 20px;
   text-decoration: none;
   font-weight: 400;
-  font-display: swap;
 }
 
 .button-more:hover {
@@ -273,7 +267,6 @@ nav a:hover {
   margin-block: 30px;
   margin-inline: 20px;
   padding-top: 30px;
-  font-display: swap;
 }
 
 .highlight-story {
@@ -288,7 +281,6 @@ nav a:hover {
   margin-inline: 20px;
   margin-block: 30px;
   padding: 30px 0;
-  font-display: swap;
 }
 
 .clients hr {
@@ -329,7 +321,6 @@ nav a:hover {
   margin-inline: 20px;
   margin-block: 30px;
   padding: 30px 0;
-  font-display: swap;
 }
 
 .home-gallery {
@@ -395,7 +386,6 @@ footer p {
   font-weight: 300;
   padding: 5px 10px;
   margin: 0 auto;
-  font-display: swap;
 }
 
 footer a:hover {
@@ -423,7 +413,6 @@ footer a:hover {
   font-weight: 400;
   margin-bottom: 1rem;
   border-bottom: #FCA311;
-  font-display: swap;
 }
 
 .footer-link {
@@ -474,7 +463,6 @@ footer a:hover {
   font-size: 3rem;
   margin: 20px;
   transition: ease-in-out 350ms;
-  font-display: swap;
 }
 
 .work-banner h2:hover {
@@ -491,7 +479,6 @@ footer a:hover {
   margin-inline: 20px;
   margin-block: 30px;
   padding: 30px 0;
-  font-display: swap;
 }
 
 .work-gallery {
@@ -549,7 +536,6 @@ footer a:hover {
   font-weight: 700;
   font-size: 2.5rem;
   margin: 20px;
-  font-display: swap;
 }
 
 
@@ -586,7 +572,6 @@ footer a:hover {
     font-weight: 900;
     font-size: 3rem;
     margin: 20px;
-    font-display: swap;
     transition: ease-in-out 350ms;
   }
 
@@ -602,7 +587,6 @@ footer a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     color: #14213d;
-    font-display: swap;
 }
 
 /* -------------------------------- */
@@ -626,7 +610,6 @@ footer a:hover {
   font-weight: 300;
   font-size: 16px;
   color: #14213d;
-  font-display: swap;
 }
 
 
@@ -655,7 +638,6 @@ footer a:hover {
   padding-top: 10px;
   transition: ease-in-out 350ms;
   margin-inline: 20px;
-  font-display: swap;
 }
 
 .about-text p {
@@ -663,7 +645,6 @@ footer a:hover {
   font-weight: 300;
   font-size: 16px;
   margin-inline: 20px;
-  font-display: swap;
 }
 
 .about-img-wrapper img {
@@ -700,7 +681,6 @@ justify-content: center;
     font-weight: 900;
     font-size: 3rem;
     margin: 10px;
-    font-display: swap;
     transition: ease-in-out 350ms;
   }
 
@@ -967,7 +947,6 @@ justify-content: center;
     font-size: 3rem;
     margin: 20px;
     transition: ease-in-out 350ms;
-    font-display: swap;
   }
 
   .thanks-header h1:hover {
@@ -982,7 +961,6 @@ justify-content: center;
     font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-display: swap;
     color: #ffffff;
 }
 
